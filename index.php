@@ -35,15 +35,17 @@
     $json = $json->{'Posts'}->{'' . $id . ''};
     
     $jsonID = $json->{"Id"};
+	$jsonTitle = $json->{'Title'};
     $jsonContent = $json->{"Content"};
     $jsonDate = $json->{"Date"};
-    echo "<h1><a href='index.php?id=" . $jsonID . "'>" . $json->{'Title'} . "</a></h1>" . $jsonContent . "<div class='bottom'>" . date('F j, Y',$jsonDate) . "</div>";
+    echo "<h1><a href='index.php?id=" . $jsonID . "'>" . $jsonTitle . "</a></h1>" . $jsonContent . "<div class='bottom'>" . date('F j, Y',$jsonDate) . "</div>";
     
   } else {
 
 	include 'inc/pagimation.php';
 	
-	// $jsonOffset = Where to start. If set to 7, it starts at post id 7 and goes from there down. It will stop at the second number (5 by default). $page is the page you are on.
+	// $jsonOffset = Where to start. If set to 7, it starts at post id 7 and goes from there down. 
+	// It will stop at the second number (5 by default). $page is the page you are on.
 	pagimation($jsonOffset,5,$page);
 	
   }

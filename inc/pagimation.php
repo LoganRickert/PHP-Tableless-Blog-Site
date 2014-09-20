@@ -12,6 +12,7 @@ function pagimation($jsonPageStart,$jsonTotal,$page) {
   foreach($json->{'Posts'} as $json) {
     
     $jsonID = $json->{"Id"};
+	$jsonTitle = $json->{"Title"};
     $jsonContent = $json->{"Content"};
     $jsonDate = $json->{"Date"};
 
@@ -24,7 +25,7 @@ function pagimation($jsonPageStart,$jsonTotal,$page) {
     
     $jsonStop++;
     
-    echo "<h1><a href='index.php?id=" . $jsonID . "'>" . $json->{'Title'} . "</a></h1>" . $jsonContent . "<div class='bottom'>" . date('F j, Y',$jsonDate) . "</div>";
+    echo "<h1><a href='index.php?id=" . $jsonID . "'>" . $jsonTitle . "</a></h1>" . $jsonContent . "<div class='bottom'>" . date('F j, Y',$jsonDate) . "</div>";
     
     end:
     
