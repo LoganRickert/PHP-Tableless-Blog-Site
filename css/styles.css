@@ -1,0 +1,134 @@
+/** Header Styles and Globals **/
+
+html {
+  background: #34495e;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 5%;
+}
+a {
+  color: #2980b9;
+  text-decoration: none; 
+}
+.width {
+  max-width: 968px;
+  margin: 0 auto;
+}
+header {
+  padding: 30px;
+  background: white;
+  margin: 30px 0 0 0;
+}
+.header_left {
+  float: left;
+  font-size: 20px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none; 
+}
+nav li {
+  float: left;
+}
+nav li a {
+  padding: 30px 10px; 
+  font-size: 20px;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #34495e;
+  text-decoration: underline;
+  transition-duration: .5s;
+}
+nav li .active {
+  text-decoration: underline;
+  color: #34495e;
+}
+
+/** Index Page **/
+
+section {
+  background: white;
+  padding: 60px;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 0 15px 0;
+  clear: both;
+}
+h1 a {
+  color: black; 
+}
+p {
+  line-height: 200%;
+  padding: 0 0 20px 0;
+}
+section ul, ol {
+  padding: 0 30px;
+  clear: both;
+}
+section li {
+  padding: 5px 0; 
+}
+.bottom {
+  float: right;
+  color: #16a085;
+  padding: 0 0 20px; 0;
+}
+
+/** Pagimation **/
+
+.page {
+  clear: both;
+  padding: 10px 0;
+}
+.page a {
+  color: white; 
+}
+.page div {
+  background: #34495e;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.page_left {
+  float: left;
+}
+.page_right {
+  float: right; 
+}
+
+/** Generator Page **/
+
+form fieldset input {
+  padding: 10px;
+  margin: 10px 0 20px;
+  width: 300px;
+}
+form fieldset textarea {
+  padding: 10px;
+  margin: 10px 0 20px;
+  width: 600px;
+  height: 180px;
+}
+
+form .submit {
+  width: 320px;
+  padding: 10px;
+  background: none;
+  border: 1px solid #999;
+}
+
+/** Footer Styles **/
+
+footer {
+  padding: 15px;
+  color: #bdc3c7;
+  font-size: 16px;
+  text-align: center;
+}

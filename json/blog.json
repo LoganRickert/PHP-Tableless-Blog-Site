@@ -1,0 +1,22 @@
+{
+  "Posts": {
+    "3": {
+      "Id": 3,
+      "Title": "Post Generator",
+      "Content": "<p>I have just added a post generator! I can now just simply generate my posts instead of having to type try and make it in the JSON file and hoping I get everything correct!</p><p>Also, I have made lists look nice :)</p><ul><li>List 1</li><li>List 2</li></ul>",
+      "Date": "1411249162"
+    },
+    "2": {
+      "Id": 2,
+      "Title": "Tableless and Pagimation",
+      "Content": "<p>I have spent a little bit of time on the site and it is now a tableless blog! You can access the JSON file at <a href=\"json/blog.json\">here</a>. I have also added nice pagimation. Right now it is set to show the 5 latest blog posts.</p>",
+      "Date": "1411249062"
+    },
+    "1": {
+      "Id": 1,
+      "Title": "Introduction",
+      "Content": "<p>This is the introduction to my small workspace! I am not sure what I will be doing here yet, but I look forward to it! Right now I am just working how some of the bugs in the design. I will be working on making it responsive and very nice looking in the coming days. I really hope people will enjoy this and I hope I will too! I might just make it a blog of things that are going on with my life and other cool things that have been going on.</p>",
+      "Date": "1411248962"
+    }
+  }
+}
