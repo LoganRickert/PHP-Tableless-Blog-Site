@@ -60,12 +60,14 @@ h1 {
   margin: 0 0 15px 0;
   clear: both;
 }
-h1 a {
-  color: black; 
-}
-p {
+section p {
   line-height: 200%;
   padding: 0 0 20px 0;
+}
+section img {
+  max-width: 100%;
+  clear: both;
+  padding: 20px;
 }
 section ul, ol {
   padding: 0 30px;

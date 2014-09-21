@@ -12,7 +12,7 @@ function pagimation($jsonPageStart,$jsonTotal,$page) {
   foreach($json->{'Posts'} as $json) {
     
     $jsonID = $json->{"Id"};
-	$jsonTitle = $json->{"Title"};
+  	$jsonTitle = $json->{"Title"};
     $jsonContent = $json->{"Content"};
     $jsonDate = $json->{"Date"};
 
@@ -36,10 +36,10 @@ function pagimation($jsonPageStart,$jsonTotal,$page) {
 
   echo "<div class='page'>";
   if($page > 1){
-    echo "<div class='page_left'><a href='index.php?page=" . ($page - 1) . "'>Last $jsonTotal</a></div>";
+    echo "<div class='page_left'><a href='index.php?page=" . ($page - 1) . "'>Page " . ($page - 1) . "</a></div>";
   }
   if($jsonStop == $jsonTotal && $jsonID != 1){
-    echo "<div class='page_right'><a href='index.php?page=" . ($page + 1) . "'>Next $jsonTotal</a></div>";
+    echo "<div class='page_right'><a href='index.php?page=" . ($page + 1) . "'>Page " . ($page + 1) . "</a></div>";
   }
   echo "</div>";
 }

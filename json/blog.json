@@ -1,5 +1,11 @@
 {
   "Posts": {
+    "4": {
+      "Id": 4,
+      "Title": "Logan The TA",
+      "Content": "<p>Story time!</p><p>So in college, I have a math class, Discrete Math. I have it Tuesdays and Thursdays. With it, there is also a class called a math recitation where you go for 30 minutes a week and review what you did in the class and go over the homework. The first week there was no math recitation, but no one was told. You only knew if you heard word and mouth so three fourths of the class showed up for it. The second week came and we were there waiting for the teacher, but no one was coming and it was about 5 minutes before class started, so I got up and went up to the white board and was like \"Maybe I will just teach today guys.\" So I take out the marker and draw a graph on the board.</p><p>As I am erasing the graph, a girl walks into the classroom and, in the moment, I pretend to be the teacher and I'm all like \"Welcome to class!\" and she's like \"ah...is this discrete math recitation?\" and I'm like \"Yep! Feel free to have a seat and we will start here in about 5 minutes.\" I said it with just soo convincingly. She looks completely confused and then nerviously says \"but...ah...I'm the TA for the class...\"</p>",
+      "Date": "1411264979"
+    },
     "3": {
       "Id": 3,
       "Title": "Post Generator",
